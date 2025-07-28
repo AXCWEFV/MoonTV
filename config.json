@@ -92,6 +92,10 @@
     "xiaomaomi": {
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源"
+    },
+    "Huanggua": {
+      "api": "https://www.avre06.com/api.php/provide/vod",
+      "name": "黄瓜资源"
     }
   }
 }
