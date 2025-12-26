@@ -11,12 +11,16 @@
       "name": "💎 量子资源 (秒播主力)"
     },
     "ffzy": {
-      "api": "https://api.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (更新最快)"
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod",
+      "name": "🚀 非凡资源 (修复版-追新快)"
     },
     "jszy": {
       "api": "https://jszyapi.com/api.php/provide/vod",
       "name": "✨ 极速资源 (画质均衡)"
+    },
+    "jmzy": {
+      "api": "https://api.jmzy.com/api.php/provide/vod",
+      "name": "🐎 金马资源 (海外剧同步)"
     },
     "suonizy": {
       "api": "https://suoniapi.com/api.php/provide/vod",
@@ -37,10 +41,6 @@
     "muzizy": {
       "api": "https://api.muziapi.com/api.php/provide/vod",
       "name": "🍃 木子资源 (纯净无广)"
-    },
-    "hnzy": {
-      "api": "https://www.hongniuzy3.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (综艺全)"
     },
     "yhzy": {
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
