@@ -1,5 +1,5 @@
 {
- "image_proxy": "https://img.andylooks.link/?url=",
+  "image_proxy": "https://i0.wp.com/",
   "cache_time": 7200,
   "parse_site": {
     "ok_parse": "https://okjx.cc/?url=",
