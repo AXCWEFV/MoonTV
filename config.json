@@ -1,5 +1,5 @@
 {
-  "image_proxy": "https://api.allorigins.win/raw?url=",
+ "image_proxy": "https://img.andylooks.link/?url=",
   "cache_time": 7200,
   "parse_site": {
     "ok_parse": "https://okjx.cc/?url=",
