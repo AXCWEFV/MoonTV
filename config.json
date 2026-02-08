@@ -1,58 +1,56 @@
 {
+  "image_proxy": "https://wsrv.nl/?url=",
   "cache_time": 7200,
   "parse_site": {
     "ok_parse": "https://okjx.cc/?url=",
     "jiexi8": "https://www.8090g.cn/?url=",
-    "json_parse": "https://jx.jsonplayer.com/player/?url="
+    "json_parse": "https://jx.jsonplayer.com/player/?url=",
+    "bozrc": "https://jx.bozrc.com:4433/player/?url="
   },
   "api_site": {
-    "lzizy": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "💎 量子资源 (秒播主力)"
+    "gszy": {
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "name": "⚡ 光速资源 (新片+短剧极快)"
+    },
+    "ikzy": {
+      "api": "https://ikzyapi.com/api.php/provide/vod",
+      "name": "📱 IK资源 (热门短剧+最新影剧)"
+    },
+    "hnzy": {
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "name": "🐂 红牛资源 (大陆秒播-主力)"
     },
     "ffzy": {
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (修复版-追新快)"
+      "name": "🚀 非凡资源 (片库最全-官方)"
     },
-    "jszy": {
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "name": "✨ 极速资源 (画质均衡)"
+    "kczy": {
+      "api": "https://caiji.kczyapi.com/api.php/provide/vod",
+      "name": "🏎️ 快车资源 (拖动无缓冲)"
     },
-    "jmzy": {
-      "api": "https://api.jmzy.com/api.php/provide/vod",
-      "name": "🐎 金马资源 (海外剧同步)"
-    },
-    "suonizy": {
-      "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "🎬 索尼资源 (4K蓝光)"
-    },
-    "ruyizy": {
-      "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源 (经典备用)"
-    },
-    "bdzy": {
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "name": "☁️ 百度云源 (稳定推荐)"
-    },
-    "18zy": {
-      "api": "https://www.18zyapi.com/api.php/provide/vod",
-      "name": "🔥 18资源 (热门追剧)"
-    },
-    "muzizy": {
-      "api": "https://api.muziapi.com/api.php/provide/vod",
-      "name": "🍃 木子资源 (纯净无广)"
-    },
-    "yhzy": {
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "name": "🌸 樱花资源 (动漫专属)"
+    "lzizy": {
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "name": "💎 量子资源 (老牌大库)"
     },
     "wwdj": {
       "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "📱 旺旺短剧 (解压必备)"
+      "name": "🍉 旺旺短剧 (短剧专用源)"
     },
-    "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "name": "🍿 豆瓣资源 (高分收藏)"
+    "tkzy": {
+      "api": "https://api.tiankongapi.com/api.php/provide/vod",
+      "name": "☁️ 天空资源 (综合备用)"
+    },
+    "suonizy": {
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "name": "🎬 索尼资源 (4K高画质)"
+    },
+    "ukzy": {
+      "api": "https://api.ukuapi.com/api.php/provide/vod",
+      "name": "💠 U酷资源 (稳定少广)"
+    },
+    "ruyizy": {
+      "api": "http://cj.rycjapi.com/api.php/provide/vod",
+      "name": "🧧 如意资源 (经典兜底)"
     }
   }
 }
