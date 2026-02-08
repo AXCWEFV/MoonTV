@@ -1,5 +1,5 @@
 {
-  "image_proxy": "https://external-content.duckduckgo.com/iu/?u=",
+  "image_proxy": "https://images.weserv.nl/?url=",
   "cache_time": 7200,
   "parse_site": {
     "ok_parse": "https://okjx.cc/?url=",
