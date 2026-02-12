@@ -1,56 +1,56 @@
 {
-  "image_proxy": "https://images.weserv.nl/?url=",
-  "cache_time": 7200,
+  "image_proxy": "/img?url=",
+  "cache_time": 14400,
   "parse_site": {
-    "ok_parse": "https://okjx.cc/?url=",
-    "jiexi8": "https://www.8090g.cn/?url=",
     "json_parse": "https://jx.jsonplayer.com/player/?url=",
-    "bozrc": "https://jx.bozrc.com:4433/player/?url="
+    "ok_parse": "https://okjx.cc/?url=",
+    "bozrc": "https://jx.bozrc.com:4433/player/?url=",
+    "jiexi8": "https://www.8090g.cn/?url="
   },
   "api_site": {
-    "gszy": {
-      "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "name": "⚡ 光速资源 (新片+短剧极快)"
-    },
-    "ikzy": {
-      "api": "https://ikzyapi.com/api.php/provide/vod",
-      "name": "📱 IK资源 (热门短剧+最新影剧)"
-    },
     "hnzy": {
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (大陆秒播-主力)"
+      "name": "🐂 红牛资源 (主力高速)"
     },
     "ffzy": {
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (片库最全-官方)"
-    },
-    "kczy": {
-      "api": "https://caiji.kczyapi.com/api.php/provide/vod",
-      "name": "🏎️ 快车资源 (拖动无缓冲)"
+      "name": "🚀 非凡资源 (片库最全)"
     },
     "lzizy": {
       "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "💎 量子资源 (老牌大库)"
+      "name": "💎 量子资源 (稳定大库)"
     },
-    "wwdj": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "🍉 旺旺短剧 (短剧专用源)"
-    },
-    "tkzy": {
-      "api": "https://api.tiankongapi.com/api.php/provide/vod",
-      "name": "☁️ 天空资源 (综合备用)"
+    "gszy": {
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "name": "⚡ 光速资源"
     },
     "suonizy": {
       "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "🎬 索尼资源 (4K高画质)"
+      "name": "🎬 索尼资源 (高画质)"
+    },
+    "ikzy": {
+      "api": "https://ikzyapi.com/api.php/provide/vod",
+      "name": "📱 IK资源"
+    },
+    "kczy": {
+      "api": "https://caiji.kczyapi.com/api.php/provide/vod",
+      "name": "🏎️ 快车资源"
+    },
+    "tkzy": {
+      "api": "https://api.tiankongapi.com/api.php/provide/vod",
+      "name": "☁️ 天空资源"
     },
     "ukzy": {
       "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "name": "💠 U酷资源 (稳定少广)"
+      "name": "💠 U酷资源"
+    },
+    "wwdj": {
+      "api": "https://wwzy.tv/api.php/provide/vod",
+      "name": "🍉 旺旺短剧"
     },
     "ruyizy": {
       "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源 (经典兜底)"
+      "name": "🧧 如意资源 (兜底)"
     }
   }
 }
