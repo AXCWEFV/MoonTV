@@ -1,56 +1,107 @@
 {
+  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar",
+  "wallpaper": "https://bing.img.run/api.php?type=1080p",
   "image_proxy": "/img?url=",
   "cache_time": 14400,
-  "parse_site": {
-    "json_parse": "https://jx.jsonplayer.com/player/?url=",
-    "ok_parse": "https://okjx.cc/?url=",
-    "bozrc": "https://jx.bozrc.com:4433/player/?url=",
-    "jiexi8": "https://www.8090g.cn/?url="
-  },
-  "api_site": {
-    "hnzy": {
+  "sites": [
+    {
+      "key": "csp_Douban",
+      "name": "⭐ 豆瓣热映 (推荐首选)",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1,
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/douban.json"
+    },
+    {
+      "key": "hnzy",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (主力高速)"
+      "name": "🐂 红牛资源 (主力高速)",
+      "type": 1
     },
-    "ffzy": {
+    {
+      "key": "ffzy",
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (片库最全)"
+      "name": "🚀 非凡资源 (片库最全)",
+      "type": 1
     },
-    "lzizy": {
+    {
+      "key": "lzizy",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "💎 量子资源 (稳定大库)"
+      "name": "💎 量子资源 (稳定大库)",
+      "type": 1
     },
-    "gszy": {
-      "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "name": "⚡ 光速资源"
-    },
-    "suonizy": {
+    {
+      "key": "suonizy",
       "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "🎬 索尼资源 (高画质)"
+      "name": "🎬 索尼资源 (4K高画质)",
+      "type": 1
     },
-    "ikzy": {
+    {
+      "key": "hwzy",
+      "api": "https://cj.hwzy.com/api.php/provide/vod",
+      "name": "☁️ 华为资源 (极速更新)",
+      "type": 1
+    },
+    {
+      "key": "gszy",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "name": "⚡ 光速资源",
+      "type": 1
+    },
+    {
+      "key": "ikzy",
       "api": "https://ikzyapi.com/api.php/provide/vod",
-      "name": "📱 IK资源"
+      "name": "📱 IK资源",
+      "type": 1
     },
-    "kczy": {
+    {
+      "key": "kczy",
       "api": "https://caiji.kczyapi.com/api.php/provide/vod",
-      "name": "🏎️ 快车资源"
+      "name": "🏎️ 快车资源",
+      "type": 1
     },
-    "tkzy": {
-      "api": "https://api.tiankongapi.com/api.php/provide/vod",
-      "name": "☁️ 天空资源"
-    },
-    "ukzy": {
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "name": "💠 U酷资源"
-    },
-    "wwdj": {
+    {
+      "key": "wwdj",
       "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "🍉 旺旺短剧"
+      "name": "🍉 旺旺短剧",
+      "type": 1
     },
-    "ruyizy": {
+    {
+      "key": "ruyizy",
       "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源 (兜底)"
+      "name": "🧧 如意资源 (备用)",
+      "type": 1
     }
-  }
+  ],
+  "parses": [
+    {
+      "name": "聚合解析",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "OK解析",
+      "type": 0,
+      "url": "https://okjx.cc/?url="
+    },
+    {
+      "name": "Bozrc",
+      "type": 0,
+      "url": "https://jx.bozrc.com:4433/player/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "mgtv",
+    "bilibili",
+    "letv",
+    "sohu",
+    "tudou"
+  ]
 }
