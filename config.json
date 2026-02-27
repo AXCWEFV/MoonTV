@@ -1,107 +1,53 @@
 {
-  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/spider.jar",
-  "wallpaper": "https://bing.img.run/api.php?type=1080p",
   "image_proxy": "/img?url=",
   "cache_time": 14400,
-  "sites": [
-    {
-      "key": "csp_Douban",
-      "name": "⭐ 豆瓣热映 (推荐首选)",
-      "type": 3,
+  "parse_site": {
+    "聚合解析": "https://jx.jsonplayer.com/player/?url=",
+    "OK解析": "https://okjx.cc/?url=",
+    "Bozrc": "https://jx.bozrc.com:4433/player/?url="
+  },
+  "api_site": {
+    "douban": {
       "api": "csp_Douban",
-      "searchable": 0,
-      "changeable": 1,
+      "name": "⭐ 豆瓣热映 (推荐)",
+      "type": 3,
       "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/douban.json"
     },
-    {
-      "key": "hnzy",
+    "hnzy": {
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (主力高速)",
-      "type": 1
+      "name": "🐂 红牛资源 (高速)"
     },
-    {
-      "key": "ffzy",
+    "ffzy": {
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (片库最全)",
-      "type": 1
+      "name": "🚀 非凡资源 (片库)"
     },
-    {
-      "key": "lzizy",
+    "lzizy": {
       "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "💎 量子资源 (稳定大库)",
-      "type": 1
+      "name": "💎 量子资源 (稳定)"
     },
-    {
-      "key": "suonizy",
+    "suonizy": {
       "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "🎬 索尼资源 (4K高画质)",
-      "type": 1
+      "name": "🎬 索尼资源 (4K)"
     },
-    {
-      "key": "hwzy",
+    "hwzy": {
       "api": "https://cj.hwzy.com/api.php/provide/vod",
-      "name": "☁️ 华为资源 (极速更新)",
-      "type": 1
+      "name": "☁️ 华为资源 (极速)"
     },
-    {
-      "key": "gszy",
+    "gszy": {
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "name": "⚡ 光速资源",
-      "type": 1
+      "name": "⚡ 光速资源"
     },
-    {
-      "key": "ikzy",
-      "api": "https://ikzyapi.com/api.php/provide/vod",
-      "name": "📱 IK资源",
-      "type": 1
+    "bfzy": {
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "name": "🐝 暴风资源 (新电影多)"
     },
-    {
-      "key": "kczy",
-      "api": "https://caiji.kczyapi.com/api.php/provide/vod",
-      "name": "🏎️ 快车资源",
-      "type": 1
-    },
-    {
-      "key": "wwdj",
+    "wwdj": {
       "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "🍉 旺旺短剧",
-      "type": 1
-    },
-    {
-      "key": "ruyizy",
-      "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源 (备用)",
-      "type": 1
+      "name": "🍉 旺旺短剧"
     }
-  ],
-  "parses": [
-    {
-      "name": "聚合解析",
-      "type": 0,
-      "url": "https://jx.jsonplayer.com/player/?url=",
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "OK解析",
-      "type": 0,
-      "url": "https://okjx.cc/?url="
-    },
-    {
-      "name": "Bozrc",
-      "type": 0,
-      "url": "https://jx.bozrc.com:4433/player/?url="
-    }
-  ],
+  },
+  "lives": [],
   "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "mgtv",
-    "bilibili",
-    "letv",
-    "sohu",
-    "tudou"
+    "youku", "qq", "iqiyi", "mgtv", "bilibili", "letv", "sohu", "tudou"
   ]
 }
