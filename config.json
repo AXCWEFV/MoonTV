@@ -1,6 +1,7 @@
 {
   "image_proxy": "/img?url=",
   "cache_time": 14400,
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   "parse_site": {
     "聚合解析": "https://jx.jsonplayer.com/player/?url=",
     "OK解析": "https://okjx.cc/?url=",
@@ -13,33 +14,37 @@
       "type": 3,
       "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/douban.json"
     },
-    "hnzy": {
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (高速)"
-    },
-    "ffzy": {
-      "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (片库)"
-    },
-    "lzizy": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "💎 量子资源 (稳定)"
-    },
-    "suonizy": {
-      "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "🎬 索尼资源 (4K)"
-    },
-    "hwzy": {
-      "api": "https://cj.hwzy.com/api.php/provide/vod",
-      "name": "☁️ 华为资源 (极速)"
-    },
-    "gszy": {
-      "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "name": "⚡ 光速资源"
+    "muou": {
+      "api": "https://jsu.p72.cc/api.php/provide/vod",
+      "name": "🎬 木偶资源 (4K蓝光)"
     },
     "bfzy": {
       "api": "https://bfzyapi.com/api.php/provide/vod",
-      "name": "🐝 暴风资源 (新电影多)"
+      "name": "🐝 暴风资源 (新电影快)"
+    },
+    "hnzy": {
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "name": "🐂 红牛资源 (主力高速)"
+    },
+    "lzizy": {
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "name": "💎 量子资源 (稳定老片)"
+    },
+    "suonizy": {
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "name": "🎬 索尼资源 (高清专线)"
+    },
+    "ffzy": {
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod",
+      "name": "🚀 非凡资源 (全能片库)"
+    },
+    "hwzy": {
+      "api": "https://cj.hwzy.com/api.php/provide/vod",
+      "name": "☁️ 华为资源 (极速更新)"
+    },
+    "ruyizy": {
+      "api": "http://cj.rycjapi.com/api.php/provide/vod",
+      "name": "🧧 如意资源 (稳健兜底)"
     },
     "wwdj": {
       "api": "https://wwzy.tv/api.php/provide/vod",
