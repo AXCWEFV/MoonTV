@@ -3,9 +3,9 @@
   "cache_time": 14400,
   "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   "parse_site": {
-    "聚合解析": "https://jx.jsonplayer.com/player/?url=",
-    "OK解析": "https://okjx.cc/?url=",
-    "Bozrc": "https://jx.bozrc.com:4433/player/?url="
+    "1️⃣ 智能聚合": "https://jx.jsonplayer.com/player/?url=",
+    "2️⃣ 极速解析": "https://okjx.cc/?url=",
+    "3️⃣ 备用接口": "https://jx.bozrc.com:4433/player/?url="
   },
   "api_site": {
     "douban": {
@@ -43,7 +43,7 @@
       "name": "☁️ 华为资源 (极速更新)"
     },
     "ruyizy": {
-      "api": "http://cj.rycjapi.com/api.php/provide/vod",
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
       "name": "🧧 如意资源 (稳健兜底)"
     },
     "wwdj": {
