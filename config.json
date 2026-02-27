@@ -1,7 +1,7 @@
 {
   "image_proxy": "/img?url=",
   "cache_time": 14400,
-  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
   "parse_site": {
     "1️⃣ 智能聚合": "https://jx.jsonplayer.com/player/?url=",
     "2️⃣ 极速解析": "https://okjx.cc/?url=",
@@ -28,7 +28,7 @@
     },
     "lzizy": {
       "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "💎 量子资源 (稳定老片)"
+      "name": "💎 量子资源 (强制HTTPS)"
     },
     "suonizy": {
       "api": "https://suoniapi.com/api.php/provide/vod",
@@ -36,7 +36,7 @@
     },
     "ffzy": {
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (全能片库)"
+      "name": "🚀 非凡资源 (强制HTTPS)"
     },
     "hwzy": {
       "api": "https://cj.hwzy.com/api.php/provide/vod",
