@@ -1,41 +1,42 @@
 {
-  "image_proxy": "/img?url=",
+  "image_proxy": "https://images.weserv.nl/?url=",
   "cache_time": 14400,
-  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
   "parse_site": {
     "聚合解析": "https://jx.jsonplayer.com/player/?url=",
     "OK解析": "https://okjx.cc/?url="
   },
   "api_site": {
-    "douban": {
-      "api": "csp_Douban",
-      "name": "⭐ 豆瓣热映 (推荐)",
-      "type": 3,
-      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/douban.json"
-    },
-    "muou": {
-      "api": "https://jsu.p72.cc/api.php/provide/vod",
-      "name": "🎬 木偶资源 (4K蓝光)"
-    },
-    "bfzy": {
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "name": "🐝 暴风资源 (新电影快)"
-    },
-    "hnzy": {
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (主力高速)"
-    },
-    "lzizy": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "💎 量子资源 (全能专线)"
+    "heimuer": {
+      "api": "https://json.heimuer.xyz/api.php/provide/vod",
+      "name": "🍄 黑木耳资源 (热门影剧)"
     },
     "ffzy": {
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (高清专线)"
+      "name": "🚀 非凡资源 (综合大库+综艺)"
+    },
+    "gszy": {
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "name": "⚡ 光速资源 (新片+最新短剧)"
+    },
+    "wwdj": {
+      "api": "https://wwzy.tv/api.php/provide/vod",
+      "name": "🍉 旺旺短剧 (纯短剧专线)"
+    },
+    "wolong": {
+      "api": "https://collect.wolongzy.cc/api.php/provide/vod",
+      "name": "🐉 卧龙资源 (经典老片稳定)"
+    },
+    "jszy": {
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "name": "🏎️ 极速资源 (拖拽顺畅秒播)"
+    },
+    "hnzy": {
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "name": "🐂 红牛资源 (大陆线路高速)"
     },
     "suonizy": {
       "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "🎬 索尼资源 (高清专线)"
+      "name": "🎬 索尼资源 (4K高清画质兜底)"
     },
     "ruyizy": {
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
