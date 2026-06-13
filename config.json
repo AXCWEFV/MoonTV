@@ -8,27 +8,23 @@
   "api_site": {
     "hnzy": {
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (已确认可用)"
+      "name": "🐂 红牛资源"
     },
     "ruyizy": {
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源 (已确认可用)"
+      "name": "🧧 如意资源"
     },
-    "bdzy": {
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "name": "🔥 百度资源 (备用测试)"
+    "laoya": {
+      "api": "https://api.apilyzy.com/api.php/provide/vod",
+      "name": "🦆 老鸭资源 (老牌防屏蔽)"
     },
-    "ukuzy": {
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "name": "🛸 U酷资源 (备用测试)"
+    "qhzy": {
+      "api": "https://caiji.qhzyapi.com/api.php/provide/vod",
+      "name": "🐯 奇虎资源 (极速备用)"
     },
-    "fszy": {
-      "api": "https://www.feisuzyapi.com/api.php/provide/vod",
-      "name": "🚀 飞速资源 (备用测试)"
-    },
-    "wolong": {
-      "api": "https://collect.wolongzy.cc/api.php/provide/vod",
-      "name": "🐉 卧龙资源 (备用测试)"
+    "zuidazy": {
+      "api": "https://zuidapi.com/api.php/provide/vod",
+      "name": "🌟 最大资源 (最老牌大库)"
     }
   },
   "lives": [],
