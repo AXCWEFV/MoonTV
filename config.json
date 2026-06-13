@@ -1,46 +1,46 @@
 {
-  "image_proxy": "https://images.weserv.nl/?url=",
+  "image_proxy": "https://wsrv.nl/?url=",
   "cache_time": 14400,
   "parse_site": {
-    "聚合解析": "https://jx.jsonplayer.com/player/?url=",
-    "OK解析": "https://okjx.cc/?url="
+    "全能解析": "https://jx.jsonplayer.com/player/?url=",
+    "虾米解析": "https://jx.xmflv.com/?url="
   },
   "api_site": {
-    "heimuer": {
-      "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "name": "🍄 黑木耳资源 (热门影剧)"
-    },
     "ffzy": {
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (综合大库+综艺)"
+      "name": "🚀 非凡资源 (新剧+海量短剧)"
     },
-    "gszy": {
-      "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "name": "⚡ 光速资源 (新片+最新短剧)"
+    "lzzy": {
+      "api": "https://cj.lzyapi.com/api.php/provide/vod",
+      "name": "⚛️ 量子资源 (无水印+极速秒播)"
+    },
+    "tkzy": {
+      "api": "https://api.tiankongapi.com/api.php/provide/vod",
+      "name": "☁️ 天空资源 (热播剧集极速)"
+    },
+    "sdzy": {
+      "api": "https://sdzyapi.com/api.php/provide/vod",
+      "name": "⚡ 闪电资源 (主打解析流畅)"
+    },
+    "hnzy": {
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "name": "🐂 红牛资源 (国内节点极速)"
+    },
+    "wujin": {
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "name": "♾️ 无尽资源 (短剧补充+全能大库)"
+    },
+    "suonizy": {
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "name": "🎬 索尼资源 (4K高清热剧)"
     },
     "wwdj": {
       "api": "https://wwzy.tv/api.php/provide/vod",
       "name": "🍉 旺旺短剧 (纯短剧专线)"
     },
-    "wolong": {
-      "api": "https://collect.wolongzy.cc/api.php/provide/vod",
-      "name": "🐉 卧龙资源 (经典老片稳定)"
-    },
-    "jszy": {
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "name": "🏎️ 极速资源 (拖拽顺畅秒播)"
-    },
-    "hnzy": {
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (大陆线路高速)"
-    },
-    "suonizy": {
-      "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "🎬 索尼资源 (4K高清画质兜底)"
-    },
     "ruyizy": {
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源 (稳健兜底)"
+      "name": "🧧 如意资源 (稳定兜底)"
     }
   },
   "lives": [],
