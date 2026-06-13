@@ -14,13 +14,17 @@
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
       "name": "🧧 如意资源"
     },
-    "doubanzy": {
-      "api": "https://api.doubanzy.com/api.php/provide/vod",
-      "name": "🎬 豆瓣资源 (老牌综合大库)"
-    },
     "ikun": {
       "api": "https://ikunzyapi.com/api.php/provide/vod",
       "name": "🏀 爱坤资源 (热播剧与短剧)"
+    },
+    "dbzy": {
+      "api": "https://dbzy.tv/api.php/provide/vod",
+      "name": "🎬 豆瓣资源 (最新备用)"
+    },
+    "dytt": {
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+      "name": "🍿 电影天堂 (经典影视补充)"
     }
   },
   "lives": [],
