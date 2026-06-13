@@ -35,7 +35,7 @@
       "name": "🎬 索尼资源 (4K高清热剧)"
     },
     "wwdj": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
+      "api": "https://api.wwzy.tv/api.php/provide/vod",
       "name": "🍉 旺旺短剧 (纯短剧专线)"
     },
     "ruyizy": {
