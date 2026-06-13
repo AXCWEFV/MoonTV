@@ -6,33 +6,29 @@
     "夜幕解析": "https://www.yemu.xyz/?url="
   },
   "api_site": {
-    "ffzy": {
-      "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (新剧+海量短剧)"
-    },
-    "lzzy": {
-      "api": "https://cj.lzyapi.com/api.php/provide/vod",
-      "name": "⚛️ 量子资源 (无水印+极速秒播)"
-    },
-    "tkzy": {
-      "api": "https://api.tiankongapi.com/api.php/provide/vod",
-      "name": "☁️ 天空资源 (热播剧集极速)"
-    },
-    "xinlang": {
-      "api": "https://api.xinlangapi.com/api.php/provide/vod",
-      "name": "🌊 新浪资源 (极速大库+短剧)"
-    },
     "hnzy": {
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (国内节点直连)"
-    },
-    "suonizy": {
-      "api": "https://suoniapi.com/api.php/provide/vod",
-      "name": "🎬 索尼资源 (4K高清热剧)"
+      "name": "🐂 红牛资源 (已确认可用)"
     },
     "ruyizy": {
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源 (稳定兜底)"
+      "name": "🧧 如意资源 (已确认可用)"
+    },
+    "bdzy": {
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "name": "🔥 百度资源 (备用测试)"
+    },
+    "ukuzy": {
+      "api": "https://api.ukuapi.com/api.php/provide/vod",
+      "name": "🛸 U酷资源 (备用测试)"
+    },
+    "fszy": {
+      "api": "https://www.feisuzyapi.com/api.php/provide/vod",
+      "name": "🚀 飞速资源 (备用测试)"
+    },
+    "wolong": {
+      "api": "https://collect.wolongzy.cc/api.php/provide/vod",
+      "name": "🐉 卧龙资源 (备用测试)"
     }
   },
   "lives": [],
