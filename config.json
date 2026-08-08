@@ -1,30 +1,30 @@
 {
-  "image_proxy": "https://image.cubes.net.cn/?url=",
+  "image_proxy": "https://wsrv.nl/?url=",
   "cache_time": 14400,
   "parse_site": {
     "虾米解析": "https://jx.xmflv.com/?url=",
     "夜幕解析": "https://www.yemu.xyz/?url="
   },
   "api_site": {
+    "lzzy": {
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "name": "⚡ 量子资源 (秒播极速)"
+    },
+    "ffzy": {
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod",
+      "name": "🚀 非凡资源 (稳定热门)"
+    },
     "hnzy": {
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源"
+      "name": "🐂 红牛资源 (保留直连)"
     },
     "ruyizy": {
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源"
+      "name": "🧧 如意资源 (保留直连)"
     },
-    "ikun": {
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "name": "🏀 爱坤资源 (热播剧与短剧)"
-    },
-    "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "name": "🎬 豆瓣资源 (最新备用)"
-    },
-    "dytt": {
-      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
-      "name": "🍿 电影天堂 (经典影视补充)"
+    "wlzy": {
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
+      "name": "🐉 卧龙资源 (老牌全面)"
     }
   },
   "lives": [],
