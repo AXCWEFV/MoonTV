@@ -1,32 +1,49 @@
 {
-  "image_proxy": "https://wsrv.nl/?url=",
-  "cache_time": 14400,
+  "cache_time": 86400,
+
+  "image_proxy": "",
+
   "parse_site": {
-    "虾米解析": "https://jx.xmflv.com/?url=",
-    "夜幕解析": "https://www.yemu.xyz/?url="
+    "夜幕解析": "https://www.yemu.xyz/?url=",
+    "虾米解析": "https://jx.xmflv.com/?url="
   },
+
   "api_site": {
-    "lzzy": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "⚡ 量子资源 (秒播极速)"
+
+    "snzy": {
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "name": "💽 索尼蓝光"
     },
-    "ffzy": {
-      "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "name": "🚀 非凡资源 (稳定热门)"
-    },
-    "hnzy": {
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "name": "🐂 红牛资源 (保留直连)"
-    },
-    "ruyizy": {
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "🧧 如意资源 (保留直连)"
-    },
+
     "wlzy": {
       "api": "https://collect.wolongzyw.com/api.php/provide/vod",
-      "name": "🐉 卧龙资源 (老牌全面)"
+      "name": "🐉 卧龙资源"
+    },
+
+    "bdzy": {
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "name": "☁️ 百度资源"
+    },
+
+    "hnzy": {
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "name": "🐂 红牛资源"
+    },
+
+    "ruyizy": {
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "name": "🧧 如意资源"
     }
+
   },
+
   "lives": [],
-  "flags": ["youku", "qq", "iqiyi", "mgtv", "bilibili"]
+
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "mgtv",
+    "bilibili"
+  ]
 }
