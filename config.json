@@ -1,6 +1,6 @@
 {
   "cache_time": 86400,
-  "image_proxy": "https://image.baidu.com/search/down?url=",
+  "image_proxy": "http://113.20.8.129:8080/?url=",
   "parse_site": {
     "夜幕解析": "https://www.yemu.xyz/?url=",
     "虾米解析": "https://jx.xmflv.com/?url="
